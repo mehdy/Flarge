@@ -1,9 +1,5 @@
 # Flarge
 Flask Large Applications
 
-You can create Large Flask Apps by forking this repo and using other little 
-pieces of codes I'd like to call Plugins which are collection of some 
-blueprints, some models, forms and etc.
-
-The Idea of this project is to prevent repeating codes either by rewriting 
-or copying. And bring centralized maintenance. by using git submodules.
+This is a template for creating large flask applications.
+don't use it manully. it must be used by [flactory](https://mehdy.net/flactory).
