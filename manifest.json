@@ -1,3 +1,54 @@
 {
-	"state": {}
+	"state": {
+		"postgres": {
+			"prompt": "do you want to use postgres?",
+			"type": "confirm",
+			"value": true
+		},
+		"postgres_db": {
+			"prompt": "choose your database name: ",
+			"type": "str"
+		},
+		"postgres_user": {
+			"prompt": "choose your database user: ",
+			"type": "str"
+		},
+		"postgres_password": {
+			"prompt": "choose your database password: ",
+			"type": "str"
+		},
+		"redis": {
+			"prompt": "do you want to use redis?",
+			"type": "confirm",
+			"value": true
+		},
+		"data_dir": {
+			"prompt": "where do you want to store your static data? ",
+			"type": "str"
+		},
+		"data_url": {
+			"prompt": "where do you want to serve your static data? ",
+			"type": "str"
+		},
+		"dev_log_path": {
+			"prompt": "where do you want to store your logs in dev mode? ",
+			"type": "str"
+		},
+		"dep_log_path": {
+			"prompt": "where do you want to store your logs in deployment mode? ",
+			"type": "str"
+		}
+	},
+	"excludes": [
+		{
+			"prompt": "do you want to use vagrant?",
+			"type": "file",
+			"vale":" Vagrantfile"
+		},
+		{
+			"prompt": "do you want to use docker?",
+			"type": "file",
+			"value": "Dockerfile"
+		}
+	]
 }
