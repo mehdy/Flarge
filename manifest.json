@@ -43,7 +43,7 @@
 		{
 			"prompt": "do you want to use vagrant?",
 			"type": "file",
-			"vale":" Vagrantfile"
+			"value":" Vagrantfile"
 		},
 		{
 			"prompt": "do you want to use docker?",
