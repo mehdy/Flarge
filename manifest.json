@@ -1,4 +1,5 @@
 {
+	"entrypoint": "flarge",
 	"state": {
 		"postgres": {
 			"prompt": "do you want to use postgres?",
